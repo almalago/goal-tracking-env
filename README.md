@@ -60,5 +60,13 @@ controls: `A`/`D` move cursor · `+`/`-` adjust demand · `R` reset · `Q` quit
 ## citation
 
 ```bibtex
-[citation]
+@misc{lago2026mechanistic,
+      title={Mechanistic Foundations of Goal-Directed Control},
+      author={Alma Lago},
+      year={2026},
+      eprint={2603.15248},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.15248},
+}
 ```
