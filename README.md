@@ -2,6 +2,8 @@
 
 a minimal 1D cursor-to-goal tracking environment for studying control strategies under varying task demands.
 
+**[project page](https://almalago.github.io/control-arbitration/)**
+
 | prospective (td = 0.0) | reactive (td = 0.8) |
 |:---:|:---:|
 | ![prospective](assets/demo_prospective.gif) | ![reactive](assets/demo_reactive.gif) |
@@ -39,13 +41,13 @@ for _ in range(100):
 
 ## task demand
 
-`task_demand ∈ [0, 1]` jointly controls goal distance and arrival tolerance:
+`task_demand ∈ [0, 1]` jointly controls reset distance and arrival tolerance:
 
-| demand | goal distance | tolerance | regime |
-|--------|--------------|-----------|--------|
-| 0.0    | 28 px (max)  | 5 px      | prospective  |
-| 0.5    | 14 px        | 2.5 px    | intermediate |
-| 0.88   | 3 px         | 0.6 px    | reactive     |
+| demand | reset distance | tolerance | regime |
+|--------|---------------|-----------|--------|
+| 0.0    | 28 px (max)   | 5 px      | prospective  |
+| 0.5    | 14 px         | 2.5 px    | intermediate |
+| 0.88   | 3 px          | 0.6 px    | reactive     |
 
 higher demand → shorter reach, tighter arrival, smaller steps.
 
