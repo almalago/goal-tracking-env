@@ -1,14 +1,18 @@
+<div align="center">
+
 # goal-tracking-env
 
 a minimal 1D cursor-to-goal tracking environment for studying control strategies under varying task demands.
 
-**[project page](https://almalago.github.io/control-arbitration/)**
+[![project page](https://img.shields.io/badge/project_page-0a3080?style=for-the-badge)](https://almalago.github.io/control-arbitration/)
 
 | prospective (td = 0.0) | reactive (td = 0.8) |
 |:---:|:---:|
 | ![prospective](assets/demo_prospective.gif) | ![reactive](assets/demo_reactive.gif) |
 
 at low demand the agent plans a long smooth approach. at high demand it corrects continuously toward a nearby but narrow target.
+
+</div>
 
 ---
 
